@@ -1,8 +1,8 @@
 {
   "name": "N-yobikou-shinchoku-watch",
-  "version": "4.2",
+  "version": "5",
   "manifest_version": 2,
-  "description": "N予備校の進捗各教科の進捗がアクセスするたびに設定したLINEに送られます。",
+  "description": "N予備校のサイトで各教科の進捗を表示するkakutyoukinoudesu。",
   "content_scripts": [
     {
         "matches": [ "https://www.nnn.ed.nico/home" ],
