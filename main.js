@@ -20,7 +20,7 @@ for(i=0;i<sec.length;i++){
 var hyoujiData = result.join("<br>");
 
 var hyouji = document.getElementsByClassName('l-column-sub');
-if(hyouji === undefined){
+if(hyouji[0] === undefined){
 	location.reload();
 }
 hyouji[0].innerHTML="<div class='u-card u-recommendation-list'><div class='u-list-header typo-list-title'>" + userName[0].innerText + "さんの進捗状況</div><div class='u-card-inner'>"+ hyoujiData +"</div></div>"+hyouji[0].innerHTML;
