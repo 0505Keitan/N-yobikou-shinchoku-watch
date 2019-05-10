@@ -2,12 +2,6 @@ const request = new XMLHttpRequest();
 const result = [];
 var form = "";
 var content;
-var now = new Date();
-var mon = now.getMonth()+1;
-var day = now.getDate();
-var hour = now.getHours();
-var min = now.getMinutes();
-var seco = now.getSeconds();
 
 var sec = document.querySelectorAll(".show-my-course-item");
 var userName = document.querySelectorAll(".name");
